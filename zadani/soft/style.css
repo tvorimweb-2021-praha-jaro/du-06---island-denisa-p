@@ -18,6 +18,14 @@ body {
     background-color: var(--pozadi);
 }
 
+header {
+    position: relative;
+}
+
+section{
+    position: relative;
+}
+
 .hlavni-nadpis {
     font-family: var(--pismo-sans); 
     font-size: 3.2rem;
@@ -26,7 +34,7 @@ body {
 
 .hlavicka {
     background-color: #1351c5;
-    background-image: linear-gradient( rgba(255, 255, 255, 0.02),rgba(0, 0, 0, 0.602) ),url(../images/island-hlavicka.jpg);
+    background-image: linear-gradient( rgba(255, 255, 255, 0.02),rgba(0, 0, 0, 0.602) ),url(../../images/island-hlavicka.jpg);
     background-position: left;
     background-size: cover;
     background-repeat: no-repeat;
@@ -46,10 +54,6 @@ body {
     font-size: 0.8rem;
     margin-top: 2rem;
     letter-spacing: 0.5px;
-}
-
-header {
-    position: relative;
 }
 
 .autor::before{
@@ -114,10 +118,6 @@ header {
     padding: 1.5rem;
     margin: 1rem 0 0 0;
     font-size: 1.5rem;
-}
-
-section{
-    position: relative;
 }
 
 .nadpis::after {
@@ -312,6 +312,13 @@ section{
         max-width: 960px;
         margin: 0 auto;
         background-color: #f6f1f1;
+    }
+
+    main {
+        width: 960px;
+        margin: 0 auto;
+        position: relative;
+        top: -60px;
     }
 
     .navigace {
